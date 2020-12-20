@@ -15,3 +15,5 @@ Output_2: Data transfer i.e. First 4 Bytes double Hash_256 of your name. You can
 4. (2 points) From address_2, Send some bitcoins to your 2-of-3 MultiSignature Address. 
 
 5. (4 points)From 2-of -3 MultiSignature Address. Send some bitcoins back to address_1. 
+
+Comment: task was done late because of fault in transaction broadcast, the ipynb contains slightly different from expected form of task 
