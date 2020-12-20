@@ -1,0 +1,17 @@
+Pre-requisite:
+1. Generate 3 testnet addresses (address_1, address_2, address_3) 
+2. Keep Address_1 as your main test address (should start with either m or n)
+3. From prerequisite 1,  generate 2-3 MultiSignature address (2 e.g. private_keys for {addess_1, address_2, address_3} out of three are required to spend Bitcoins). Note that your 2-3 MultiSignature address will start with 2.
+
+Task:
+1. (1 point) Calculate double Hash_256 of your name. Take two inputs from the user, i.e., first name and last name. Concatenate string and take SHA256(SHA256(<first name><lastname>))
+
+2. (1 point) Get some testnet Bitcoins to your testnet address_1 from any source. (Best source: https://coinfaucet.eu/en/btc-testnet/ (Links to an external site.)) . Provide the Transaction_ID. 
+
+3. (2 points) Create a new transaction from address_1 and provide Transaction_ID. Make 2 outputs: 
+
+Output_1: Some bitcoins to address_2.
+Output_2: Data transfer i.e. First 4 Bytes double Hash_256 of your name. You can send 0 bitcoins in this output.
+4. (2 points) From address_2, Send some bitcoins to your 2-of-3 MultiSignature Address. 
+
+5. (4 points)From 2-of -3 MultiSignature Address. Send some bitcoins back to address_1. 
